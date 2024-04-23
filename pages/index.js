@@ -300,7 +300,8 @@ useEffect(() => {
           <Grid.Row>
             <Grid.Column></Grid.Column>
             <Grid.Column textAlign='center' computer={8} tablet={12} mobile={16}>
-              <a href="https://t.me/tvtelugu" target="_blank" rel="noreferrer">Powered By TVtelugu</a>
+            <a href="https://tvtelugu.github.io/" style="display: block; padding: 1em 0; text-align: center; "><img border="0" width="200" data-original-height="200" data-original-width="200" src="https://raw.githubusercontent.com/tvtelugu/play/main/images/TVTELUGU-B.png"/></a> 
+            <a href="https://t.me/tvtelugu" target="_blank" rel="noreferrer">Powered By TVtelugu</a>
             </Grid.Column>
             <Grid.Column></Grid.Column>
           </Grid.Row>
