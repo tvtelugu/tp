@@ -177,7 +177,8 @@ useEffect(() => {
   return (
     <div>
       <Head>
-        <title>Generate Tata Play IPTV playlist</title>
+        <title>TATAPLAY M3U</title>
+    <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/tvtelugu/play/main/images/TVtelugu.ico">
         <meta
           name="description"
           content="Easiest way to generate a Tata Play IPTV (m3u) playlist for the channels you have subscribed to."
@@ -191,7 +192,7 @@ useEffect(() => {
                 <Grid.Column></Grid.Column>
                 <Grid.Column computer={8} tablet={12} mobile={16}>
                   <Segment loading={loading}>
-                    <Header as={'h1'}>Generate Tata Play m3u</Header>
+                    <Header as={'h1'}><img src="https://tvtelugu-tp.netlify.app/images/tataplay-tvtelugu.png"/></Header>
                     <Form>
                       <Form.Group inline>
                         <label>Login via </label>
