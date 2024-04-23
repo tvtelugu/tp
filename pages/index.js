@@ -274,7 +274,7 @@ useEffect(() => {
   <Message.Header>You cannot generate a permanent m3u file URL on localhost but you can download your m3u file: </Message.Header>
   <p></p>
   <p>
-    <Button loading={downloading} primary onClick={() => downloadM3uFile('ts.m3u')}>Download m3u file</Button>
+    <Button loading={downloading} primary onClick={() => downloadM3uFile('tvtelugu.m3u')}>Download TP M3U file</Button>
   </p>
   <p>The downloaded m3u file will be valid only for 24 hours.</p>
 </Message>
