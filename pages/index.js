@@ -191,7 +191,7 @@ useEffect(() => {
                 <Grid.Column></Grid.Column>
                 <Grid.Column computer={8} tablet={12} mobile={16}>
                   <Segment loading={loading}>
-                    <Header as={'h1'}>TVTelugu - TP Self playlist Gen</Header>
+                    <Header><img border="0" width="200" data-original-height="200" data-original-width="200" src="https://raw.githubusercontent.com/tvtelugu/play/main/images/TVTELUGU-B.png"/></Header>
                     <Form>
                       <Form.Group inline>
                         <label>Login via </label>
@@ -299,8 +299,7 @@ useEffect(() => {
           </Grid.Row>
           <Grid.Row>
             <Grid.Column></Grid.Column>
-            <Grid.Column textAlign='center' computer={8} tablet={12} mobile={16}>
-            <a><img border="0" width="200" data-original-height="200" data-original-width="200" src="https://raw.githubusercontent.com/tvtelugu/play/main/images/TVTELUGU-B.png"/></a> 
+            <Grid.Column textAlign='center' computer={8} tablet={12} mobile={16}> 
             <a href="https://t.me/tvtelugu" target="_blank" rel="noreferrer">Powered By TVtelugu</a>
             </Grid.Column>
             <Grid.Column></Grid.Column>
