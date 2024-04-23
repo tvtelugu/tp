@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image' 
+import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 import { Button, Form, Grid, Header, Message, Radio, Segment } from 'semantic-ui-react';
@@ -177,8 +177,7 @@ useEffect(() => {
   return (
     <div>
       <Head>
-        <title>TATAPLAY M3U</title>
-    <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/tvtelugu/play/main/images/TVtelugu.ico">
+        <title>TVtelugu - TataPlay Self Playlist</title>
         <meta
           name="description"
           content="Easiest way to generate a Tata Play IPTV (m3u) playlist for the channels you have subscribed to."
@@ -192,7 +191,7 @@ useEffect(() => {
                 <Grid.Column></Grid.Column>
                 <Grid.Column computer={8} tablet={12} mobile={16}>
                   <Segment loading={loading}>
-                    <Header as={'h1'}><img src="https://tvtelugu-tp.netlify.app/images/tataplay-tvtelugu.png"/></Header>
+                    <Header as={'h1'}>TVTelugu - TP Self playlist Gen</Header>
                     <Form>
                       <Form.Group inline>
                         <label>Login via </label>
@@ -301,7 +300,7 @@ useEffect(() => {
           <Grid.Row>
             <Grid.Column></Grid.Column>
             <Grid.Column textAlign='center' computer={8} tablet={12} mobile={16}>
-              <a href="https://github.com/lalitjoshi06/tataplay_url" target="_blank" rel="noreferrer">View source code on Github</a>
+              <a href="https://t.me/tvtelugu" target="_blank" rel="noreferrer">Powered By TVtelugu</a>
             </Grid.Column>
             <Grid.Column></Grid.Column>
           </Grid.Row>
